@@ -8,6 +8,7 @@ public class Match {
     private int visitantGoalCounter;
 
     public String getLocation() {
+
         return location;
     }
 
