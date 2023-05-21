@@ -1,3 +1,5 @@
+package tournament;
+
 public class player {
     private int number;
     private String name;
