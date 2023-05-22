@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Team {
     private String name;
-    private ArrayList<player> players;
+    private ArrayList<Player> Players;
 
     public String getName() {
         return name;
@@ -14,11 +14,11 @@ public class Team {
         this.name = name;
     }
 
-    public ArrayList<player> getPlayers() {
-        return players;
+    public ArrayList<Player> getPlayers() {
+        return Players;
     }
 
-    public void setPlayers(ArrayList<player> players) {
-        this.players = players;
+    public void setPlayers(ArrayList<Player> Players) {
+        this.Players = Players;
     }
 }
