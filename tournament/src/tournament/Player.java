@@ -1,6 +1,6 @@
 package tournament;
 
-public class player {
+public class Player {
     private int number;
     private String name;
     private String position;

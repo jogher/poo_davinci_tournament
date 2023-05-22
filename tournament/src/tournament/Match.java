@@ -1,5 +1,7 @@
 package tournament;
 
+import java.util.Date;
+
 public class Match {
     private String location;
     private Date date;

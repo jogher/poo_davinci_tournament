@@ -1,0 +1,61 @@
+@startuml
+class tournament.Team {
+- String name
+- ArrayList<player> players
++ String getName()
++ void setName(String)
++ ArrayList<player> getPlayers()
++ void setPlayers(ArrayList<player>)
+}
+class tournament.Match {
+- String location
+- Date date
+- Team localTeam
+- int localGoalCounter
+- int visitantGoalCounter
++ String getLocation()
++ void setLocation(String)
++ Date getDate()
++ void setDate(Date)
++ Team getLocalTeam()
++ void setLocalTeam(Team)
++ int getLocalGoalCounter()
++ void setLocalGoalCounter(int)
++ int getVisitantGoalCounter()
++ void setVisitantGoalCounter(int)
+}
+class Main {
++ {static} void main(String[])
+}
+class tournament.Season {
+- String name
+- Date startDate
+- Date endDate
+- ArrayList<Match> matches
+- ArrayList<Team> Teams
++ String getName()
++ void setName(String)
++ Date getStartDate()
++ void setStartDate(Date)
++ Date getEndDate()
++ void setEndDate(Date)
++ ArrayList<Match> getMatches()
++ void setMatches(ArrayList<Match>)
++ ArrayList<Team> getTeams()
++ void setTeams(ArrayList<Team>)
+}
+class tournament.player {
+- int number
+- String name
+- String position
+- int goalCounter
++ int getNumber()
++ void setNumber(int)
++ String getName()
++ void setName(String)
++ String getPosition()
++ void setPosition(String)
++ int getGoalCounter()
++ void setGoalCounter(int)
+}
+@enduml
